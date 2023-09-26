@@ -1,0 +1,16 @@
+.home, .intro-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.intro-wrapper{
+    height: calc(var(--innerVh, 1vh)*100);
+    text-align: center;
+    margin: 0 var(--left-right-margin);
+}
